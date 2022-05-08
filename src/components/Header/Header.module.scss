@@ -6,11 +6,13 @@
   height: 68px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 33px;
+  justify-content: space-around;
   padding-right: 30px;
   padding-left: 30px;
   background-color: #13315e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 7px #13315e;
 
   &__title {
   }
@@ -20,5 +22,6 @@
 
   &__icon {
     margin-left: 30px;
+    cursor: pointer;
   }
 }

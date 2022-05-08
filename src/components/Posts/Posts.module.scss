@@ -1,0 +1,55 @@
+.posts {
+  padding-bottom: 34px;
+  padding-left: 30px;
+  margin: 0 auto;
+  padding-top: 10px;
+
+  &__itemPost {
+    padding-right: 10px;
+    width: 715px;
+  }
+
+  &__item {
+    min-height: 165px;
+    display: flex;
+    padding: 30px 17px 30px 17px;
+    justify-content: space-between;
+    border-bottom: 1px solid #969494;
+  }
+
+  &__itemTitle {
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #080b0e;
+    margin-bottom: 5px;
+  }
+
+  &__itemText {
+    color: #898c90;
+    margin-bottom: 10px;
+  }
+
+  &__itemDate {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #c1c1c1;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__itemImg {
+    background-size: cover;
+  }
+}
+.active__post {
+  background: rgba(138, 164, 183, 0.03);
+  border-left: 4px solid #13315e;
+}
